@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: Tcg1Yr2/AKjwXQonlv/h9ha2jF6lgq63UdyM2GjEZJCaTfBhvg1WLYNAQyNQvgVe1/6GxFpsTPk8sKuzTh0A+lL7hVTVKuSpA9PUIwhN4RHRzsB5o/bSuPqhVomLbUJN7c9tSNjs6cvymBAPqR6ABy/4t/UKWUlWdUnj4CaEgG8lAk+7FaThv1vDY99sRUn3U0gj9oOQbYj4pBaalBBEDOhSztb6NrqS5UnwHjnakIqNmkhk759Dfh/EFKQ2M60GMbN7PRf7sTefq6SSftMyK437vqkoYW/YBctDWk9IyjhwFGwG0VEIk/Q+3PdSDXuXHaVVPQVlFOss4cUTyEec30YWgTlIv4XYtQ/OnTUACAJ6LUZhkl0cLjKgeZkSnRSkUaD69PqzIQgS0/ZK4H/X1qY6B0HTSgmZyKoh8PzQIvgID+t93dGUDbezGWRJKlkMS5EhelCK8Vb8FjwzfRu/ezm3PrsQ8sTU1OohTXGyKF8DEYpF/PMalgH6VdvsY28l5IVQAqJiIdPl1xuzD0uwMw+uYQXMQPA6Jqu0pRTLuSsMExz2HzHaC4apBDM6R6pho2lK9j5a4KPzHJuXotZaonho3eql0JtuMedbHNj5idBqQdc1NIganQzvz70ti0Mpi7UyyEsj0ZgkxeDoEbCskMilawf2ntfuj4ak10qtaUs=
+  app: aqueous-thicket-54812
+  on:
+    repo: RyanOkamuro/blog-app-mongoose-challenge-solution
